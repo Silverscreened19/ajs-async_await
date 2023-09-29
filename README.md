@@ -1,5 +1,7 @@
 # Домашнее задание к лекции «Promises, async/await»
 
+[![Build status](https://ci.appveyor.com/api/projects/status/bu96yn56y1kahy9p?svg=true)](https://ci.appveyor.com/project/Silverscreened19/ajs-async-await)
+
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
 **Важно**: код должен проходить ESLint без ошибок.
@@ -49,7 +51,7 @@ export default function read() {
         }
         resolve(buffer);
       })(data);
-    }, 1000); 
+    }, 1000);
   });
 }
 ```
@@ -110,7 +112,7 @@ GameSavingLoader.load().then((saving) => {
 
 ## Testing Async code (задача со звёздочкой)
 
-**Важно**: данная задача не является обязательной 
+**Важно**: данная задача не является обязательной
 
 ### Легенда
 
